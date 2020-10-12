@@ -178,9 +178,7 @@ img {
 /* ---------------header style */
 .container {
   display: flex;
-  /* align-items: center; */
   max-width: 1248px;
-  /* padding-right: 1vw; */
   padding-left: 5%;
   width: 95%;
 }
@@ -309,7 +307,8 @@ button {
 .section-2 {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 10vh;
+  padding-left: 8vw;
   max-width: 41.7%;
   justify-content: center;
   margin-bottom: 30vh;
@@ -318,6 +317,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   max-width: 80%;
+  padding-left: 8vw;
 }
 .faster-grow {
   margin-bottom: 4%;
@@ -681,7 +681,6 @@ form button {
   .intro p {
     padding: 1%;
     font-size: 1em;
-    max-width: 30vw;
   }
 
   .intro ul {
